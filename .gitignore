@@ -1,0 +1,6 @@
+# Ignoramos todo lo que tenga salida de tipo txt
+/salida/*.txt
+
+# Ignoramos también los modulo de node, no le damos mantenimiento, por que no es nuestro trabajo.
+# Todo nuestro trabajo ya lo tenemos en package.json. Harán npm install y ya se intala todo lo que tenemos en package.json
+node_modules/
